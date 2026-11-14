@@ -1,0 +1,15 @@
+[Unit]
+Description=Quadlet-Navidrome
+
+[Container]
+Environment=ND_DEFAULTDOWNSAMPLINGFORMAT=opus ND_AGENTS=lastfm
+Image=navidrome/navidrome:latest
+Pull=always
+UserNS=keep-id
+PublishPort=4533:4533 #1st number is published port, can be change or set yourself
+Volume=/path/to/data:/data:z
+Volume=/path/to/your/music/folder:/music:ro,z
+
+[Service]
+Restart=on-failure
+TimeoutStartSec=30
