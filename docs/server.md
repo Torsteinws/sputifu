@@ -12,6 +12,7 @@
 - plocate
 - fzf
 - fdfind
+- davfs2
 
 ## Neovim
 

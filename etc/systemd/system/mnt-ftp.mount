@@ -1,0 +1,14 @@
+[Unit]
+Description=Mount Ftp box
+After=network-online.target
+Wants=network-online.target
+
+[Mount]
+What=https://u718768.your-storagebox.de/navidrome
+Where=/mnt/ftp
+Options=uid=999,file_mode=0664,dir_mode=2775,grpid
+Type=davfs
+TimeoutSec=15
+
+[Install]
+WantedBy=multi-user.target

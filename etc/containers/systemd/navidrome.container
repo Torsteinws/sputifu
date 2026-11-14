@@ -1,5 +1,6 @@
 [Unit]
-Description=Quadlet-Navidrome
+Description=Navidrome container
+Requires=mnt-ftp.mount
 
 [Container]
 Environment=ND_DEFAULTDOWNSAMPLINGFORMAT=opus ND_AGENTS=lastfm
@@ -7,8 +8,10 @@ Image=navidrome/navidrome:latest
 Pull=always
 UserNS=keep-id
 PublishPort=4533:4533 #1st number is published port, can be change or set yourself
-Volume=/path/to/data:/data:z
-Volume=/path/to/your/music/folder:/music:ro,z
+Volume=/mnt/ftp/music:/opt/navidrome/music:ro,z
+Volume=/mnt/ftp/db_backup:/opt/navidrome/db_backup:z
+Volume=/opt/navidrome/data:/opt/navidrome/data:z
+Volume=/opt/sputifu/navidrome.toml:/etc/navidrome/navidrome.toml:ro,z
 
 [Service]
 Restart=on-failure
