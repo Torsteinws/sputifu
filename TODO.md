@@ -1,11 +1,11 @@
 # TODO
 
 - [ ] Webside
-- [ ] SSL/HTTPS
-- [ ] Compose script
+- [X] SSL/HTTPS
+- [X] Compose script
 - [ ] Deploy script
-- [ ] Løsning for å laste opp musikk (uten scp)
+- [X] Løsning for å laste opp musikk (uten scp)
 - [ ] Ekstern backup
 - [ ] Sporing?
 - [ ] vpn elns?
-- [ ] Storage box
+- [X] Storage box
