@@ -23,3 +23,6 @@ Count = 365
 Schedule =  "0 0 * * *"
 # Every day at 12:00 AM
 
+[Scanner]
+Schedule = "*/5 * * * *"
+# Every 5 minutes
