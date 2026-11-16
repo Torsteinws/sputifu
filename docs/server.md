@@ -36,6 +36,16 @@ tar xf zellij-aarch64-unknown-linux-gnu.tar.gz
 sudo mv --force zellij /usr/local/bin
 ```
 
+## tldr
+
+- Installert fra en .deb fil.
+- Nyeste versjon: [https://github.com/tldr-pages/tlrc/releases](https://github.com/tldr-pages/tlrc/releases)
+
+```bash
+wget -O /tmp/tlrc.deb https://github.com/tldr-pages/tlrc/releases/download/v1.13.1/tlrc-v1.13.1-aarch64-unknown-linux-gnu.deb
+sudo apt install /tmp/tlrc.deb
+```
+
 # Users
 
 ## Groups
