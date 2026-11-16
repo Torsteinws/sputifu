@@ -1,11 +1,24 @@
 # TODO
 
 - [ ] Webside
-- [X] SSL/HTTPS
-- [X] Compose script
+- [x] SSL/HTTPS
+- [x] Compose script
 - [ ] Deploy script
-- [X] Løsning for å laste opp musikk (uten scp)
+- [x] Løsning for å laste opp musikk (uten scp)
 - [ ] Ekstern backup
 - [ ] Sporing?
 - [ ] vpn elns?
-- [X] Storage box
+- [x] Storage box
+
+## Tutorials
+
+### For vanlige brukere
+
+- [ ] Forklare hvordan en moderne pirat jobber (av akademiske formål).
+- [ ] Tutorials for sftp
+    - [ ] filezilla
+- [ ] Tutorials for redigering av metadata
+
+### For tekniske brukere
+
+- [ ] Forklare hvordan legge til brukere på ftp serveren.
