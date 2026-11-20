@@ -16,7 +16,7 @@ PublishPort=4533:4533
 Volume=/mnt/ftp/music:/music:ro,z
 Volume=/mnt/ftp/db_backup:/db_backup:z
 Volume=/opt/navidrome/data:/data:z
-Volume=/opt/sputifu/navidrome.toml:/etc/navidrome/navidrome.toml:ro,z
+Volume=/opt/navidrome/navidrome.toml:/etc/navidrome/navidrome.toml:ro,z
 
 [Service]
 User=navidrome
