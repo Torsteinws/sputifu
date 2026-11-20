@@ -1,8 +1,8 @@
 [Unit]
 Description=Navidrome container
-Requires=mnt-ftp.mount
-After=mnt-ftp.mount network-online.target
+After=network-online.target
 Wants=network-online.target
+RequiresMountsFor=/mnt/ftp
 
 [Install]
 WantedBy=multi-user.target
