@@ -1,6 +1,11 @@
 [Unit]
 Description=Navidrome container
 Requires=mnt-ftp.mount
+After=mnt-ftp.mount network-online.target
+Wants=network-online.target
+
+[Install]
+WantedBy=multi-user.target
 
 [Container]
 Environment=ND_CONFIGFILE=/etc/navidrome/navidrome.toml
