@@ -9,4 +9,3 @@ cp --recursive --verbose "$REPO_ROOT_MIRROR"/* /
 
 chown navidrome:navidrome /opt/navidrome/navidrome.toml
 chown navidrome:navidrome /home/navidrome/.config/containers/systemd/navidrome.container
-chown navidrome:navidrome /home/navidrome/.config/containers/registries.conf
