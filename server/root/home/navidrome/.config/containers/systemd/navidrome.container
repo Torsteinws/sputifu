@@ -7,7 +7,7 @@ WantedBy=default.target
 
 [Container]
 Environment=ND_CONFIGFILE=/etc/navidrome/navidrome.toml
-Image=navidrome/navidrome:pr-6222
+Image=navidrome/navidrome:0.64.2
 Pull=newer
 UserNS=keep-id
 PublishPort=4533:4533
