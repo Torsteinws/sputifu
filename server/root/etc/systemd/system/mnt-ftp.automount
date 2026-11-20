@@ -1,0 +1,8 @@
+[Unit]
+Description=Automount Ftp box on demand. 
+
+[Automount]
+Where=/mnt/ftp
+
+[Install]
+WantedBy=multi-user.target

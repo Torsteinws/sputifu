@@ -13,6 +13,7 @@
 - fzf
 - fdfind
 - davfs2
+- machinectl
 
 ## Neovim
 

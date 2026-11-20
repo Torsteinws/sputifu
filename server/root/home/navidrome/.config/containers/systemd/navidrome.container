@@ -1,15 +1,13 @@
 [Unit]
 Description=Navidrome container
-After=network-online.target
-Wants=network-online.target
 RequiresMountsFor=/mnt/ftp
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
 
 [Container]
 Environment=ND_CONFIGFILE=/etc/navidrome/navidrome.toml
-Image=navidrome/navidrome:pr-6222
+Image=navidrome/navidrome:0.64.2
 Pull=newer
 UserNS=keep-id
 PublishPort=4533:4533
@@ -19,7 +17,5 @@ Volume=/opt/navidrome/data:/data:z
 Volume=/opt/navidrome/navidrome.toml:/etc/navidrome/navidrome.toml:ro,z
 
 [Service]
-User=navidrome
-Group=navidrome
 Restart=on-failure
 TimeoutStartSec=30
