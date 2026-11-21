@@ -13,7 +13,10 @@
 
 ## Innholdsfortegnelse
 
+- [arbeidsflyt.md](./arbeidsflyt.md) - Guider for hvordan jobbe med prosjektet.
+    - Eks: How to deploy
 - [jukseark.md](./jukseark.md) - Nyttige kommandoer, tips og triks.
 - [oppsett.md](./oppsett.md) - Forklarer hvordan sette opp serveren helt fra scratch.
     - Obs: Forklaringen er ikke komplett. Diverse mangler er forventet.
 - [programmer.md](./programmer.md) - Omhandler programmer som er installert på serveren.
+
