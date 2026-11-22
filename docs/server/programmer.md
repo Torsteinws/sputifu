@@ -27,8 +27,26 @@ Eksempel:
 ```bash
 navidrome -h
 ```
+
 - Lokasjon: `/usr/local/bin/` 
 - Er et lite wrapper script som vi vedlikeholder her: [server/usr/local/bin/navidrome](server/usr/local/bin/navidrome)
+
+## Navidrome service
+
+- Vi har skrevet noen convenience scripts for å håndtere navidrome systemd service 
+- Lokasjon: `/usr/local/bin/` 
+- Kilde: [server/usr/local/bin/navidrome](server/usr/local/bin/navidrome)
+- Bruksområde:
+
+    ```bash
+    navidrome-status    # See systemctl status 
+
+    navidrome-stop      # Stop systemctl service
+
+    navidrome-start     # Start systemctl service
+
+    navidrome-restart   # Restart systemctl service
+    ```
 
 ## Neovim
 

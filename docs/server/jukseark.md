@@ -3,12 +3,12 @@
 - Merk at noen av disse kommandoene er kanskje litt rare...(?)  
   Dette skyldes sannsynligvis av at vi migrerte fra systembruker til vanlig bruker, og ikke gjorde en komplett og perfekt migrasjon.
 
-## Service
+## Se 
 
 - Se status
 
 ```bash
-sudo systemctl --user --machine=navidrome@.host status navidrome
+navidrome-status
 ```
 
 - Se log
@@ -20,19 +20,19 @@ Høtt the føkk, aner ikke hvordan!
 - Restart
 
 ```bash
-sudo systemctl --user --machine=navidrome@.host status navidrome
+navidrome-restart
 ```
 
 - Stop
 
 ```bash
-sudo systemctl --user --machine=navidrome@.host stop navidrome
+navidrome-stop
 ```
 
 - Start
 
 ```bash
-sudo systemctl --user --machine=navidrome@.host start navidrome
+navidrome-stop
 ```
 
 ## Bruker
