@@ -14,13 +14,18 @@ DataFolder = "/opt/navidrome/data"
 # Music library folder
 MusicFolder = "/opt/navidrome/music"
 
+# nd-lyrics is added to this list so that we can get automatic lyrics from Navidrome Lyrics Plugin.
+# Otherwise, use default values. 
+# Plugin: https://github.com/J0R6IT0/navidrome-lyrics-plugin
+# Default values: https://www.navidrome.org/docs/usage/configuration/options/#opt-lyricspriority
+LyricsPriority = ".ttml,.yaml,.yml,.elrc,.lrc,.srt,.txt,embedded,nd-lyrics"
 
 # Automated backup of navidrome database (not music files)
 # https://www.navidrome.org/docs/usage/admin/backup/
 [Backup]
 Path = "/opt/navidrome/db_backup"
 Count = 365
-Schedule =  "0 0 * * *"
+Schedule = "0 0 * * *"
 # Every day at 12:00 AM
 
 [Scanner]
