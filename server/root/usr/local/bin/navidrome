@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+NAVIDROME_USER="navidrome"
+CONTAINER_NAME="systemd-navidrome"
+
+NAVIDROME_UID=$(id -u "$NAVIDROME_USER")
+
+INNER_SCRIPT='
+    container=$1
+    shift
+
+    # Start from a directory the navidrome user can actually access
+    cd "$HOME" || exit 1
+
+    exec podman exec "$container" navidrome "$@"
+'
+sudo -u "$NAVIDROME_USER" \
+    env XDG_RUNTIME_DIR="/run/user/$NAVIDROME_UID" \
+    bash -c "$INNER_SCRIPT" bash "$CONTAINER_NAME" "$@"

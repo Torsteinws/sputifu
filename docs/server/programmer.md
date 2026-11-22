@@ -20,6 +20,16 @@ OBS: Serveren er armbasert! Husk på dét hvis du skal installere noe!
 - machinectl
 - unzip
 
+## Navidrome CLI
+
+Eksempel:
+
+```bash
+navidrome -h
+```
+- Lokasjon: `/usr/local/bin/` 
+- Er et lite wrapper script som vi vedlikeholder her: [server/usr/local/bin/navidrome](server/usr/local/bin/navidrome)
+
 ## Neovim
 
 - Installert som appimage.
