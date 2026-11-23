@@ -22,6 +22,11 @@ LyricsPriority = ".ttml,.yaml,.yml,.elrc,.lrc,.srt,.txt,embedded,nd-lyrics"
 
 # Set imported playlists as public by default
 DefaultPlaylistPublicVisibility = true
+
+# Navidrome will exit with an error if it detects it’s running as root (UID 0). 
+# This validation happens early, before any filesystem operations. 
+EnforceNonRootUser = true
+
 # Automated backup of navidrome database (not music files)
 # https://www.navidrome.org/docs/usage/admin/backup/
 [Backup]
