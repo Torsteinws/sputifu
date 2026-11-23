@@ -20,6 +20,8 @@ MusicFolder = "/opt/navidrome/music"
 # Default values: https://www.navidrome.org/docs/usage/configuration/options/#opt-lyricspriority
 LyricsPriority = ".ttml,.yaml,.yml,.elrc,.lrc,.srt,.txt,embedded,nd-lyrics"
 
+# Set imported playlists as public by default
+DefaultPlaylistPublicVisibility = true
 # Automated backup of navidrome database (not music files)
 # https://www.navidrome.org/docs/usage/admin/backup/
 [Backup]
