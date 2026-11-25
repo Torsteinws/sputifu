@@ -10,7 +10,7 @@ Det enkleste er å sette dette opp i din ssh config:
 # ~/.ssh/config
 
 Host sputifu
-    HostName 167.235.79.112
+    HostName sputifu.no
     User <MY_USERNAME_ON_SERVER>
     ForwardAgent yes
 ```
