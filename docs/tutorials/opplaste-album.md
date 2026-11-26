@@ -2,7 +2,7 @@
 
 For å laste opp filer til sputifu trenger du 3 programmer.
 
-1. [Nicotine+](https://nicotine-plus.org/) - brukes til å laste ned musikk.
+1. [Nicotine+](https://nicotine-plus.org/) - brukes til å laste ned musikk fra [Soulseek nettverket](https://www.slsknet.org/news/node/680).
 2. [Picard](https://picard.musicbrainz.org/) - brukes til å tagge musikkfilene dine.
 3. [FileZilla](https://filezilla-project.org/) - brukes til å laste opp filene til sputifu.
 
@@ -73,6 +73,6 @@ Musikk/
 
 Følg disse guidene:
 
-- [Nicotine+](./nicotine+.md)
+- [Soulseek](./soulseek.md)
 - [Picard](./picard.md)
 - [FileZilla](./)

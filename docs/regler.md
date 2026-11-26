@@ -1,10 +1,19 @@
 # Regler for sputifu
 
+## Foretrukne filer
+
+Vi har ikke noe filpoliti, men vi setter pris på om du laster opp filer av bra kvalitet:
+
+- Helst last opp .flac filer
+    - Minst 16 bit.
+    - 24 bit er veldig flott! Men er ikke et krav.
+        - Mennesker kan ikke høre forskjell på 16 bit og 24 bit, men man må ha 24 bit dersom man skal bruke lydfilen i en produksjon.
+
 ## Navnekonvensjon
 
 Filer som lastes opp til sputifu skal følge denne navnekonvensjonen.
 
-### Generelt
+### Generel
 
 Navnekonvensjon vår er: `artist/år - album/disk-spor sangtittel`
 

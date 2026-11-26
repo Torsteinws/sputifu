@@ -3,12 +3,13 @@
 ## Tutorials
 
 - [Hvordan laste opp album?](./docs/tutorials/opplaste-album.md)
-    - [Sette opp Nicotine+](./docs/tutorials/nicotine+.md)
+    - [Sette opp Soulseek med Nicotine+](./docs/tutorials/soulseek.md)
     - [Sette opp Picard](./docs/tutorials/picard.md)
     - [Sette opp FileZilla](./docs/tutorials/filezilla.md)
 
 ## Regler
 
+- [Foretrukne filer](./docs/regler.md#foretrukne-filer)
 - [Navnekonvensjon](./docs/regler.md#navnekonvensjon)
 
 ## Server
